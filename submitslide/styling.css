@@ -1,0 +1,89 @@
+.signup-box{
+    width:80%;
+    max-width: 370px;
+    border: 1px solid black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: .75rem;
+    padding: 10px 0;
+}
+
+.signup-box input{
+    width: 85%;
+    height: 40px;
+    margin: 12px auto;
+    display: block;
+    border: 1px solid black;
+    border-radius: .75rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    padding-left: 15px;
+}
+
+.signup-box input:focus{
+    outline:none;
+}
+
+#check{
+    width: 20px;
+    max-width: 20px;
+    margin: 0 0 0 5%;
+    padding: 0;
+    height: 20px;
+    display: inline;
+}
+
+.label{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    padding-left: 9px;
+    position: absolute;
+
+}
+
+#submit-btn{
+    width: auto;
+    padding: 0 30px;
+    background-color: #5271ff;
+    border: 1px solid transparent;
+    border-radius: .75rem;
+    color: white;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 1.125rem;
+    height: 50px;
+    transition: 0.15s;
+    float: right;
+    margin: 35px 5% 12px 0;
+    cursor: default;
+
+    
+}
+
+.submit-div{
+    height: 200px;
+    width: 80%;
+    max-width: 300px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    border-radius: .75rem;
+    border: 1px solid black;
+    display: block;
+}
+
+.submit-div i{
+    font-size: 40px;
+    padding-top: 50px;
+    color: #5271ff;
+}
+
+.submit-div h1{
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
